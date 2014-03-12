@@ -32,19 +32,28 @@ PODS:
     - CSSSelectorConverter/CoreParse
   - CSSSelectorConverter/CoreParse (1.1.0):
     - CocoaLumberjack (>= 1.6.4)
+  - DropdownMenu (1.0.0)
   - IGHTMLQuery (0.8.0):
     - IGHTMLQuery/Core
   - IGHTMLQuery/Core (0.8.0):
     - CSSSelectorConverter (>= 1.1.0)
+  - RESideMenu (3.4)
+  - SVWebViewController (1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - DropdownMenu
   - IGHTMLQuery
+  - RESideMenu
+  - SVWebViewController
 
 SPEC CHECKSUMS:
   AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   CSSSelectorConverter: f9b31f0996658cbcb4730357d1b1d2558cc34d4a
+  DropdownMenu: 3c454205c2db1fd39dc1ebf099114c4fdb73f136
   IGHTMLQuery: 5ca886d86e0721cd67b2bd29304e9caef867f64c
+  RESideMenu: d8d6330052e0348718826045b912a1c71748357d
+  SVWebViewController: e576371f7015bce92c97c304c32336700064847b
 
 COCOAPODS: 0.29.0
