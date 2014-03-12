@@ -14,11 +14,11 @@
 
 @implementation POAHomeViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    if ((self=[super initWithCoder:aDecoder]))
+    {
+        self = [self initWithAddress:@"http://anond.hatelabo.jp/"];
     }
     return self;
 }

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESideMenu.h"
 
-@interface POARootViewController : UIViewController
+@interface POARootViewController : RESideMenu
 
 @end

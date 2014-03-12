@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 Yoshiike Yuta. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "SVWebViewController.h"
 
 @interface POAHomeViewController : SVWebViewController

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESideMenu.h"
 
-@interface POAMenuViewController : UIViewController
+@interface POAMenuViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, RESideMenuDelegate>
+
+@property (strong, readwrite, nonatomic) UITableView *tableView;
 
 @end
